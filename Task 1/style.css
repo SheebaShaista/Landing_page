@@ -1,0 +1,388 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*MY CODE*/
+
+* {
+  text-decoration: none;
+
+}
+main {
+  padding-top: 100px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #12AD2B;
+  width: 100%;
+  height: 100px;
+}
+
+.menu-bar {
+  width: 110;
+  display: block;
+  background-color: #555;
+  overflow: auto;
+}
+
+.menu-bar a {
+  float: left;
+  width: 10%;
+  text-align: center;
+  padding: 9px 9px 9px 9px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+
+
+.header-brand
+
+header .header-brand {
+  font-family: Light 300;
+  font-size: 30px;
+  font-weight: 900;
+/*  background-color:
+  color: #111; */
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+header a {
+  color: #FFFFFF;
+}
+
+header a i {
+
+}
+
+header nav ul {
+  margin: auto;
+  display: block;
+  width: fit-content;
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+  padding: 0 20px;
+  list-style: none;
+}
+
+header nav ul li a {
+  font-family: Marck Script;
+  font-size: 16px;
+  font-weight: 900;
+  color: #FFFFFF;
+  display: block;
+  text-transform: uppercase;
+}
+
+
+
+header .login {
+  display: block;
+}
+
+header .login a {
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+header .login a:hover {
+  background: #000;
+}
+
+@media only screen and (min-width: 1000px) {
+  header .header-brand {
+    margin: 31px 0;
+    text-align: left;
+    line-height: 40px;
+    padding: 0px 20px 0px 40px;
+    border-right: 3px solid #111;
+    float: left;
+    font-size: 30px;
+  }
+
+  header nav ul {
+    margin: 20px 0px 0px 20px;
+    float: left;
+  }
+
+  header nav ul li a {
+    line-height: 60px;
+  }
+
+  header .login {
+    display: block;
+    font-family: Marck Script;
+    font-size: 16px;
+    font-weight: 900;
+    color: #13131;
+    text-transform: uppercase;
+    line-height: 38px;
+    border: 1px solid #111;
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 0px 20px;
+  }
+
+  .menu-bar {
+    width: 80;
+    display: block;
+    background-color: #555;
+  }
+
+  .menu-bar a {
+    width: 10%;
+    text-align: center;
+    padding: 9px 9px 9px 9px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+
+
+
+}
+
+/*INDEX*/
+
+.wrapper {
+  width: 100%;
+  height: calc(110vh - 100px);
+  background-image: url('img/2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover ;
+  display: table;
+}
+
+.vertical-center {
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+.index-banner h2 {
+  font-family: Times new roman;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 70px;
+  color: orange;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.index-banner h1 {
+  font-family: Marck Script;
+  font-size: 28px;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.index-links div {
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 100px;
+  background-color: #FFFFFF;
+
+}
+
+.index-links div h3 {
+  font-family: arial;
+  font-size: 28px;
+  font-weight: 300;
+  font-style: bold;
+  line-height: 100px;
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+}
+.index-links div h3:hover {
+  color: white;
+}
+
+
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    width: 1000px;
+    margin: 0px auto;
+  }
+
+
+.index-banner h1 {
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  .index-links  {
+    overflow: hidden;
+  }
+
+  .index-links div {
+    margin: 20px 10px 0;
+    height: 230px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0.5);
+    float: left;
+
+  }
+
+
+.index-boxlink-rectangle {
+  width: calc(50% - 37px) !important;
+
+}
+
+.index-boxlink-square {
+  width: calc(50% - 05px) !important;
+}
+
+.index-links div h3 {
+  line-height: 230px;
+}
+}
+/*BOOKS*/
+
+body {margin:0}
+
+.books-menu-bar {
+  width: 160px;
+  background-color: #555;
+}
+
+.books-menu-bar a {
+  display: block;
+  text-align: center;
+  padding: 30px 140px 40px 20px;
+  transition: all 0.1s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.books-menu-bar a:hover {
+  background-color: #000;
+}
+
+.active  {
+  background-color: #none;
+}
